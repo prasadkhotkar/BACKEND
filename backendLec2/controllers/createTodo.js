@@ -1,5 +1,5 @@
 //import the model
-const Todo=require("../Models/Todo");
+const Todo=require("../Models/Todo").default;
 
 //define route handeler
 exports.createTodo=async(req,res)=>{

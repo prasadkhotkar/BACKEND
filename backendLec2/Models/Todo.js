@@ -1,4 +1,4 @@
-const mongoose=require('mongoose');
+const mongoose=require("mongoose");
 
 const todoSchema=new mongoose.Schema(
     {
@@ -24,5 +24,4 @@ const todoSchema=new mongoose.Schema(
         }
     }
 )
-
-module.exports=mongoose.Model("Todo",todoSchema);
+const Todo = mongoose.model('Todo', todoSchema);
